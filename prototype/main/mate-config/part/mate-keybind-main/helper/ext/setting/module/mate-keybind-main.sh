@@ -562,13 +562,11 @@ mate_keybind_main_config_for_workspace_base () {
 
 }
 
-
 mate_keybind_main_config_for_workspace_rename () {
 
 	gsettings set org.mate.Marco.global-keybindings rename-workspace '<Alt>r'
 
 }
-
 
 mate_keybind_main_config_for_workspace_switch_to_workspace_cycle () {
 
@@ -612,7 +610,6 @@ mate_keybind_main_config_for_workspace_switch_to_workspace_specific () {
 	#gsettings set org.mate.Marco.global-keybindings switch-to-workspace-10 '<Alt>0'
 
 }
-
 
 mate_keybind_main_config_for_workspace_move_to_workspace_specific () {
 
