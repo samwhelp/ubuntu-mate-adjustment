@@ -148,41 +148,13 @@ mate_workspace_main_prototype_install () {
 mate_workspace_main_settings_set_all () {
 
 
-	util_error_echo
-	util_error_echo "gsettings set org.gnome.desktop.wm.preferences num-workspace 5"
-	gsettings set org.gnome.desktop.wm.preferences num-workspaces 5
-
-
-	util_error_echo
-	util_error_echo "gsettings set org.gnome.desktop.wm.preferences workspace-names \"['File', 'Edit', 'Web', 'Term', 'Misc']\""
-	gsettings set org.gnome.desktop.wm.preferences workspace-names "['File', 'Edit', 'Web', 'Term', 'Misc']"
-
-
-
-
-
-
-
-
-	util_error_echo
-	util_error_echo "gsettings set org.gnome.mutter dynamic-workspaces false"
-	gsettings set org.gnome.mutter dynamic-workspaces false
-
-
-
-
-
-
-
-
-	#util_error_echo
-	#util_error_echo "gsettings set org.gnome.shell.overrides dynamic-workspaces false"
-	#gsettings set org.gnome.shell.overrides dynamic-workspaces false
+	mate_workspace_main_config_start
 
 
 
 
 	return 0
+
 }
 
 ##
@@ -211,8 +183,105 @@ mate_workspace_main_gschema_put_all () {
 
 
 	return 0
+
 }
 
 ##
 ### Tail: Setting / Module / Mate / Gschema
+################################################################################
+
+
+
+
+
+
+
+
+################################################################################
+### Head: mate / config / mate_workspace_main
+##
+
+mate_workspace_main_config_start () {
+
+	util_error_echo
+	util_error_echo "##"
+	util_error_echo "## ## Config: mate_workspace_main_config"
+	util_error_echo "##"
+	util_error_echo
+
+	mate_workspace_main_config_for_workspace_number
+
+	mate_workspace_main_config_for_workspace_name
+
+
+
+
+	return 0
+
+}
+
+mate_workspace_main_config_for_workspace_number () {
+
+	util_error_echo
+	util_error_echo "##"
+	util_error_echo "## ## mate_workspace_main_config_for_workspace_number"
+	util_error_echo "##"
+
+
+
+
+	util_error_echo
+	util_error_echo "gsettings set org.mate.Marco.general num-workspaces 5"
+	gsettings set org.mate.Marco.general num-workspaces 5
+
+
+
+
+	return 0
+
+}
+
+mate_workspace_main_config_for_workspace_name () {
+
+	util_error_echo
+	util_error_echo "##"
+	util_error_echo "## ## mate_workspace_main_config_for_workspace_name"
+	util_error_echo "##"
+
+
+
+
+	util_error_echo
+	util_error_echo "gsettings set org.mate.Marco.workspace-names name-1 'File'"
+	gsettings set org.mate.Marco.workspace-names name-1 'File'
+
+
+	util_error_echo
+	util_error_echo "gsettings set org.mate.Marco.workspace-names name-2 'Edit'"
+	gsettings set org.mate.Marco.workspace-names name-2 'Edit'
+
+
+	util_error_echo
+	util_error_echo "gsettings set org.mate.Marco.workspace-names name-3 'Web'"
+	gsettings set org.mate.Marco.workspace-names name-3 'Web'
+
+
+	util_error_echo
+	util_error_echo "gsettings set org.mate.Marco.workspace-names name-4 'Term'"
+	gsettings set org.mate.Marco.workspace-names name-4 'Term'
+
+
+	util_error_echo
+	util_error_echo "gsettings set org.mate.Marco.workspace-names name-5 'Misc'"
+	gsettings set org.mate.Marco.workspace-names name-5 'Misc'
+
+
+
+
+	return 0
+
+}
+
+##
+### Tail: mate / config / mate_workspace_main
 ################################################################################

@@ -1,14 +1,13 @@
 
 
-[org.gnome.desktop.wm.preferences]
+[org.mate.Marco.general]
 num-workspaces=5
-workspace-names=['File', 'Edit', 'Web', 'Term', 'Misc']
 
 
-[org.gnome.mutter]
-dynamic-workspaces=false
-
-
-#[org.gnome.shell.overrides]
-#dynamic-workspaces=false
+[org.mate.Marco.workspace-names]
+name-1='File'
+name-2='Edit'
+name-3='Web'
+name-4='Term'
+name-5='Misc'
 
