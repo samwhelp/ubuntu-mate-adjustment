@@ -8,7 +8,7 @@
 
 
 ##
-## ## Package / gnome-shell
+## ## Package / mate-desktop
 ##
 
-gnome-shell
+mate-desktop
