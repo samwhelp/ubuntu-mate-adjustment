@@ -18,7 +18,7 @@
 
 | Ubuntu Package |
 | --- |
-| [gnome-shell](https://packages.ubuntu.com/noble/gnome-shell) |
+| [mate-desktop](https://packages.ubuntu.com/noble/mate-desktop) |
 
 
 
