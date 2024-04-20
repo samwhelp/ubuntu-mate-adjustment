@@ -13,7 +13,7 @@
 
 
 ##
-## Load: Setting / Module / Gnome Shell / Config Main
+## Load: Setting / Module / Mate / Config Main
 ##
 
 . "${THE_MAIN_EXT_SETTING_MODULE_DIR_PATH}/gnome-shell-config-main.sh"

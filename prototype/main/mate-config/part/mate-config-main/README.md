@@ -1,6 +1,6 @@
 
 
-# Gnome Shell
+# Mate
 
 
 
