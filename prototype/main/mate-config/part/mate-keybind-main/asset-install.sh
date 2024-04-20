@@ -39,7 +39,7 @@ main_asset_install () {
 
 	#util_error_echo 'main_asset_install'
 
-	mate_workspace_main_asset_install
+	mate_keybind_main_asset_install
 
 
 

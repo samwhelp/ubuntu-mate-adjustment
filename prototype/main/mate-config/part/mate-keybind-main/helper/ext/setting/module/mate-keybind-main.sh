@@ -4,7 +4,7 @@
 ### Head: Setting / Module / Mate / Variable
 ##
 
-mate_workspace_main_var_init () {
+mate_keybind_main_var_init () {
 
 	THE_MATE_WORKSPACE_MAIN_GSCHEMA_OVERRIDE_FILE_NAME="50_mate-keybind-main.gschema.override"
 
@@ -15,7 +15,7 @@ mate_workspace_main_var_init () {
 
 }
 
-mate_workspace_main_var_dump () {
+mate_keybind_main_var_dump () {
 
 
 	is_not_debug && return 0
@@ -25,7 +25,7 @@ mate_workspace_main_var_dump () {
 
 	util_debug_echo
 	util_debug_echo "################################################################################"
-	util_debug_echo "### Head: mate_workspace_main_var_dump"
+	util_debug_echo "### Head: mate_keybind_main_var_dump"
 	util_debug_echo "##"
 	util_debug_echo
 
@@ -45,7 +45,7 @@ mate_workspace_main_var_dump () {
 
 	util_debug_echo
 	util_debug_echo "##"
-	util_debug_echo "### Tail: mate_workspace_main_var_dump"
+	util_debug_echo "### Tail: mate_keybind_main_var_dump"
 	util_debug_echo "################################################################################"
 	util_debug_echo
 
@@ -59,8 +59,8 @@ mate_workspace_main_var_dump () {
 
 }
 
-mate_workspace_main_var_init
-mate_workspace_main_var_dump
+mate_keybind_main_var_init
+mate_keybind_main_var_dump
 
 ##
 ### Tail: Setting / Module / Mate / Variable
@@ -71,18 +71,18 @@ mate_workspace_main_var_dump
 ### Head: Setting / Module / Mate / Portal
 ##
 
-mate_workspace_main_config_install () {
+mate_keybind_main_config_install () {
 
 	util_error_echo
 	util_error_echo "##"
-	util_error_echo "## ## mate_workspace_main_config_install"
+	util_error_echo "## ## mate_keybind_main_config_install"
 	util_error_echo "##"
 	util_error_echo
 
 
 
 
-	mate_workspace_main_settings_set_all
+	mate_keybind_main_settings_set_all
 
 
 
@@ -93,11 +93,11 @@ mate_workspace_main_config_install () {
 }
 
 
-mate_workspace_main_asset_install () {
+mate_keybind_main_asset_install () {
 
 	util_error_echo
 	util_error_echo "##"
-	util_error_echo "## ## mate_workspace_main_asset_install"
+	util_error_echo "## ## mate_keybind_main_asset_install"
 	util_error_echo "##"
 	util_error_echo "## > Do Nothing"
 	util_error_echo "##"
@@ -112,18 +112,18 @@ mate_workspace_main_asset_install () {
 }
 
 
-mate_workspace_main_prototype_install () {
+mate_keybind_main_prototype_install () {
 
 	util_error_echo
 	util_error_echo "##"
-	util_error_echo "## ## mate_workspace_main_prototype_install"
+	util_error_echo "## ## mate_keybind_main_prototype_install"
 	util_error_echo "##"
 	util_error_echo
 
 
 
 
-	mate_workspace_main_gschema_put_all
+	mate_keybind_main_gschema_put_all
 
 
 
@@ -145,10 +145,10 @@ mate_workspace_main_prototype_install () {
 ### Head: Setting / Module / Mate / Settings
 ##
 
-mate_workspace_main_settings_set_all () {
+mate_keybind_main_settings_set_all () {
 
 
-	mate_workspace_main_config_start
+	mate_keybind_main_config_start
 
 
 
@@ -166,7 +166,7 @@ mate_workspace_main_settings_set_all () {
 ### Head: Setting / Module / Mate / Gschema
 ##
 
-mate_workspace_main_gschema_put_all () {
+mate_keybind_main_gschema_put_all () {
 
 	local source_gschema_override_file_path="${THE_MATE_WORKSPACE_MAIN_SOURCE_GSCHEMA_OVERRIDE_FILE_PATH}"
 
@@ -198,20 +198,20 @@ mate_workspace_main_gschema_put_all () {
 
 
 ################################################################################
-### Head: mate / config / mate_workspace_main
+### Head: mate / config / mate_keybind_main
 ##
 
-mate_workspace_main_config_start () {
+mate_keybind_main_config_start () {
 
 	util_error_echo
 	util_error_echo "##"
-	util_error_echo "## ## mate_workspace_main_config_start"
+	util_error_echo "## ## mate_keybind_main_config_start"
 	util_error_echo "##"
 	util_error_echo
 
-	mate_workspace_main_config_for_workspace_number
+	mate_keybind_main_config_for_workspace_number
 
-	mate_workspace_main_config_for_workspace_name
+	mate_keybind_main_config_for_workspace_name
 
 
 
@@ -220,11 +220,11 @@ mate_workspace_main_config_start () {
 
 }
 
-mate_workspace_main_config_for_workspace_number () {
+mate_keybind_main_config_for_workspace_number () {
 
 	util_error_echo
 	util_error_echo "##"
-	util_error_echo "## ## mate_workspace_main_config_for_workspace_number"
+	util_error_echo "## ## mate_keybind_main_config_for_workspace_number"
 	util_error_echo "##"
 
 
@@ -244,11 +244,11 @@ mate_workspace_main_config_for_workspace_number () {
 
 }
 
-mate_workspace_main_config_for_workspace_name () {
+mate_keybind_main_config_for_workspace_name () {
 
 	util_error_echo
 	util_error_echo "##"
-	util_error_echo "## ## mate_workspace_main_config_for_workspace_name"
+	util_error_echo "## ## mate_keybind_main_config_for_workspace_name"
 	util_error_echo "##"
 
 
@@ -289,5 +289,5 @@ mate_workspace_main_config_for_workspace_name () {
 }
 
 ##
-### Tail: mate / config / mate_workspace_main
+### Tail: mate / config / mate_keybind_main
 ################################################################################
