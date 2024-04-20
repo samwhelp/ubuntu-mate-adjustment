@@ -200,7 +200,7 @@ mate_config_main_config_start () {
 
 	util_error_echo
 	util_error_echo "##"
-	util_error_echo "## ## Config: mate_config_main_config_start"
+	util_error_echo "## ## mate_config_main_config_start"
 	util_error_echo "##"
 	util_error_echo
 
