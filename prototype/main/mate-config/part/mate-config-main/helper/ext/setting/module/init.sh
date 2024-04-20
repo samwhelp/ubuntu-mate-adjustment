@@ -16,7 +16,7 @@
 ## Load: Setting / Module / Mate / Config Main
 ##
 
-. "${THE_MAIN_EXT_SETTING_MODULE_DIR_PATH}/gnome-shell-config-main.sh"
+. "${THE_MAIN_EXT_SETTING_MODULE_DIR_PATH}/mate-config-main.sh"
 
 
 ##
