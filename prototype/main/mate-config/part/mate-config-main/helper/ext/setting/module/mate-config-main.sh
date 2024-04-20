@@ -144,7 +144,7 @@ mate_config_main_prototype_install () {
 mate_config_main_settings_set_all () {
 
 
-	mate_config_main
+	mate_config_main_config_start
 
 
 
@@ -193,22 +193,22 @@ mate_config_main_gschema_put_all () {
 
 
 ################################################################################
-### Head: mate / config
+### Head: mate / config / mate_config_main
 ##
 
-mate_config_main () {
+mate_config_main_config_start () {
 
 	util_error_echo
 	util_error_echo "##"
-	util_error_echo "## ## Config: mate_config_main"
+	util_error_echo "## ## Config: mate_config_main_config_start"
 	util_error_echo "##"
 	util_error_echo
 
-	mate_config_main_for_wm
+	mate_config_main_config_for_wm
 
-	mate_config_main_for_keyboard
+	mate_config_main_config_for_keyboard
 
-	mate_config_main_for_sound
+	mate_config_main_config_for_sound
 
 
 
@@ -217,7 +217,7 @@ mate_config_main () {
 
 }
 
-mate_config_main_for_wm () {
+mate_config_main_config_for_wm () {
 
 
 	##
@@ -235,7 +235,7 @@ mate_config_main_for_wm () {
 
 	util_error_echo
 	util_error_echo "##"
-	util_error_echo "## ## mate_config_main_for_wm"
+	util_error_echo "## ## mate_config_main_config_for_wm"
 	util_error_echo "##"
 
 
@@ -293,7 +293,7 @@ mate_config_main_for_wm () {
 
 }
 
-mate_config_main_for_keyboard () {
+mate_config_main_config_for_keyboard () {
 
 
 
@@ -311,7 +311,7 @@ mate_config_main_for_keyboard () {
 
 	util_error_echo
 	util_error_echo "##"
-	util_error_echo "## ## mate_config_main_for_keyboard"
+	util_error_echo "## ## mate_config_main_config_for_keyboard"
 	util_error_echo "##"
 
 
@@ -333,7 +333,7 @@ mate_config_main_for_keyboard () {
 
 }
 
-mate_config_main_for_sound () {
+mate_config_main_config_for_sound () {
 
 
 
@@ -351,7 +351,7 @@ mate_config_main_for_sound () {
 
 	util_error_echo
 	util_error_echo "##"
-	util_error_echo "## ## mate_config_main_for_sound"
+	util_error_echo "## ## mate_config_main_config_for_sound"
 	util_error_echo "##"
 
 
@@ -370,5 +370,5 @@ mate_config_main_for_sound () {
 }
 
 ##
-### Tail: mate / config
+### Tail: mate / config / mate_config_main
 ################################################################################
