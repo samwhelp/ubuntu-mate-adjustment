@@ -237,6 +237,9 @@ mate_workspace_main_config_for_workspace_number () {
 
 
 
+	util_error_echo
+
+
 	return 0
 
 }
@@ -276,6 +279,9 @@ mate_workspace_main_config_for_workspace_name () {
 	gsettings set org.mate.Marco.workspace-names name-5 'Misc'
 
 
+
+
+	util_error_echo
 
 
 	return 0
