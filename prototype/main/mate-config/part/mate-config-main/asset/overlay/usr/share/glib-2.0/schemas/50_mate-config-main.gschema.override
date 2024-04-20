@@ -1,10 +1,10 @@
 
 
-[org.gnome.desktop.wm.preferences]
-action-double-click-titlebar='toggle-maximize'
-action-middle-click-titlebar='toggle-shade'
+[org.mate.Marco.general]
+action-double-click-titlebar='toggle_maximize'
+action-middle-click-titlebar='toggle_shade'
 action-right-click-titlebar='menu'
-button-layout='appmenu:minimize,maximize,close'
+button-layout='menu:minimize,maximize,close'
 mouse-button-modifier='<Super>'
 resize-with-right-button=true
 raise-on-click=true
@@ -12,17 +12,11 @@ focus-mode='click'
 focus-new-windows='smart'
 
 
-[org.gnome.desktop.peripherals.keyboard]
-numlock-state=false
+[org.mate.peripherals-keyboard]
+numlock-state='off'
 remember-numlock-state=true
 
 
-[org.gnome.desktop.sound]
+[org.mate.sound]
 event-sounds=false
-
-
-[org.gnome.desktop.interface]
-clock-format='24h'
-clock-show-seconds=true
-clock-show-weekday=true
 
