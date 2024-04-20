@@ -1,7 +1,7 @@
 
 
 ################################################################################
-### Head: Setting / Module / Gnome Shell / Variable
+### Head: Setting / Module / Mate / Variable
 ##
 
 gnome_shell_workspace_main_var_init () {
@@ -32,7 +32,7 @@ gnome_shell_workspace_main_var_dump () {
 
 	util_debug_echo
 	util_debug_echo "##"
-	util_debug_echo "## ## Gnome Shell / Gschema"
+	util_debug_echo "## ## Mate / Gschema"
 	util_debug_echo "##"
 	util_debug_echo
 
@@ -63,12 +63,12 @@ gnome_shell_workspace_main_var_init
 gnome_shell_workspace_main_var_dump
 
 ##
-### Tail: Setting / Module / Gnome Shell / Variable
+### Tail: Setting / Module / Mate / Variable
 ################################################################################
 
 
 ################################################################################
-### Head: Setting / Module / Gnome Shell / Portal
+### Head: Setting / Module / Mate / Portal
 ##
 
 gnome_shell_workspace_main_config_install () {
@@ -137,12 +137,12 @@ gnome_shell_workspace_main_prototype_install () {
 
 
 ##
-### Tail: Setting / Module / Gnome Shell / Portal
+### Tail: Setting / Module / Mate / Portal
 ################################################################################
 
 
 ################################################################################
-### Head: Setting / Module / Gnome Shell / Settings
+### Head: Setting / Module / Mate / Settings
 ##
 
 gnome_shell_workspace_main_settings_set_all () {
@@ -186,12 +186,12 @@ gnome_shell_workspace_main_settings_set_all () {
 }
 
 ##
-### Tail: Setting / Module / Gnome Shell / Settings
+### Tail: Setting / Module / Mate / Settings
 ################################################################################
 
 
 ################################################################################
-### Head: Setting / Module / Gnome Shell / Gschema
+### Head: Setting / Module / Mate / Gschema
 ##
 
 gnome_shell_workspace_main_gschema_put_all () {
@@ -214,5 +214,5 @@ gnome_shell_workspace_main_gschema_put_all () {
 }
 
 ##
-### Tail: Setting / Module / Gnome Shell / Gschema
+### Tail: Setting / Module / Mate / Gschema
 ################################################################################
