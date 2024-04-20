@@ -200,7 +200,7 @@ mate_config_main () {
 
 	util_error_echo
 	util_error_echo "##"
-	util_error_echo "## Config: mate_config_main"
+	util_error_echo "## ## Config: mate_config_main"
 	util_error_echo "##"
 	util_error_echo
 
@@ -235,7 +235,7 @@ mate_config_main_for_wm () {
 
 	util_error_echo
 	util_error_echo "##"
-	util_error_echo "## mate_config_main_for_wm"
+	util_error_echo "## ## mate_config_main_for_wm"
 	util_error_echo "##"
 
 
@@ -311,7 +311,7 @@ mate_config_main_for_keyboard () {
 
 	util_error_echo
 	util_error_echo "##"
-	util_error_echo "## mate_config_main_for_keyboard"
+	util_error_echo "## ## mate_config_main_for_keyboard"
 	util_error_echo "##"
 
 
@@ -351,7 +351,7 @@ mate_config_main_for_sound () {
 
 	util_error_echo
 	util_error_echo "##"
-	util_error_echo "## mate_config_main_for_sound"
+	util_error_echo "## ## mate_config_main_for_sound"
 	util_error_echo "##"
 
 

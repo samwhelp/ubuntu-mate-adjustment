@@ -22,6 +22,7 @@ sys_gsettings_schemas_update () {
 	util_error_echo
 
 	return 0
+
 }
 
 ##
