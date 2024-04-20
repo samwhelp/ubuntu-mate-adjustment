@@ -9,7 +9,7 @@
 
 | Config File Path |
 | --- |
-| [/usr/share/glib-2.0/schemas/50_mate-workspace-main.gschema.override](./asset/overlay/usr/share/glib-2.0/schemas/50_mate-workspace-main.gschema.override) |
+| [/usr/share/glib-2.0/schemas/50_mate-keybind-main.gschema.override](./asset/overlay/usr/share/glib-2.0/schemas/50_mate-keybind-main.gschema.override) |
 
 
 
