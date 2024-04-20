@@ -144,102 +144,13 @@ mate_config_main_prototype_install () {
 mate_config_main_settings_set_all () {
 
 
-	util_error_echo
-	util_error_echo "gsettings set org.gnome.desktop.wm.preferences action-double-click-titlebar 'toggle-maximize'"
-	gsettings set org.gnome.desktop.wm.preferences action-double-click-titlebar 'toggle-maximize'
-
-
-	util_error_echo
-	util_error_echo "gsettings set org.gnome.desktop.wm.preferences action-middle-click-titlebar 'toggle-shade'"
-	gsettings set org.gnome.desktop.wm.preferences action-middle-click-titlebar 'toggle-shade'
-
-
-	util_error_echo
-	util_error_echo "gsettings set org.gnome.desktop.wm.preferences action-right-click-titlebar 'menu'"
-	gsettings set org.gnome.desktop.wm.preferences action-right-click-titlebar 'menu'
-
-
-	util_error_echo
-	util_error_echo "gsettings set org.gnome.desktop.wm.preferences button-layout 'appmenu:minimize,maximize,close'"
-	gsettings set org.gnome.desktop.wm.preferences button-layout 'appmenu:minimize,maximize,close'
-
-
-	util_error_echo
-	util_error_echo "gsettings set org.gnome.desktop.wm.preferences mouse-button-modifier '<Super>'"
-	gsettings set org.gnome.desktop.wm.preferences mouse-button-modifier '<Super>'
-
-
-	util_error_echo
-	util_error_echo "gsettings set org.gnome.desktop.wm.preferences resize-with-right-button true"
-	gsettings set org.gnome.desktop.wm.preferences resize-with-right-button true
-
-
-	util_error_echo
-	util_error_echo "gsettings set org.gnome.desktop.wm.preferences raise-on-click true"
-	gsettings set org.gnome.desktop.wm.preferences raise-on-click true
-
-
-	util_error_echo
-	util_error_echo "gsettings set org.gnome.desktop.wm.preferences focus-mode 'click'"
-	gsettings set org.gnome.desktop.wm.preferences focus-mode 'click'
-
-
-	util_error_echo
-	util_error_echo "gsettings set org.gnome.desktop.wm.preferences focus-new-windows 'smart'"
-	gsettings set org.gnome.desktop.wm.preferences focus-new-windows 'smart'
-
-
-
-
-
-
-
-
-	util_error_echo
-	util_error_echo "gsettings set org.gnome.desktop.peripherals.keyboard numlock-state false"
-	gsettings set org.gnome.desktop.peripherals.keyboard numlock-state false
-
-
-	util_error_echo
-	util_error_echo "gsettings set org.gnome.desktop.peripherals.keyboard remember-numlock-state true"
-	gsettings set org.gnome.desktop.peripherals.keyboard remember-numlock-state true
-
-
-
-
-
-
-
-
-	util_error_echo
-	util_error_echo "gsettings set org.gnome.desktop.sound event-sounds false"
-	gsettings set org.gnome.desktop.sound event-sounds false
-
-
-
-
-
-
-
-
-	util_error_echo
-	util_error_echo "gsettings set org.gnome.desktop.interface clock-format '24h'"
-	gsettings set org.gnome.desktop.interface clock-format '24h'
-
-
-	util_error_echo
-	util_error_echo "gsettings set org.gnome.desktop.interface clock-show-seconds true"
-	gsettings set org.gnome.desktop.interface clock-show-seconds true
-
-
-	util_error_echo
-	util_error_echo "gsettings set org.gnome.desktop.interface clock-show-weekday true"
-	gsettings set org.gnome.desktop.interface clock-show-weekday true
+	mate_config_main
 
 
 
 
 	return 0
+
 }
 
 ##
@@ -272,4 +183,192 @@ mate_config_main_gschema_put_all () {
 
 ##
 ### Tail: Setting / Module / Mate / Gschema
+################################################################################
+
+
+
+
+
+
+
+
+################################################################################
+### Head: mate / config
+##
+
+mate_config_main () {
+
+	util_error_echo
+	util_error_echo "##"
+	util_error_echo "## Config: mate_config_main"
+	util_error_echo "##"
+	util_error_echo
+
+	mate_config_main_for_wm
+
+	mate_config_main_for_keyboard
+
+	mate_config_main_for_sound
+
+
+
+
+	return 0
+
+}
+
+mate_config_main_for_wm () {
+
+
+	##
+	## /usr/share/glib-2.0/schemas/org.mate.marco.gschema.xml
+	##
+
+
+	##
+	## gsettings list-recursively | grep org.mate.Marco.general
+	## gsettings list-recursively org.mate.Marco.general
+	## dconf dump /org/mate/marco/general/
+	## dconf dump / | grep 'org/mate/marco/general' -A 10
+	##
+
+
+	util_error_echo
+	util_error_echo "##"
+	util_error_echo "## mate_config_main_for_wm"
+	util_error_echo "##"
+
+
+	util_error_echo
+	util_error_echo "gsettings set org.mate.Marco.general action-double-click-titlebar 'toggle_maximize'"
+	gsettings set org.mate.Marco.general action-double-click-titlebar "'toggle_maximize'"
+
+
+	util_error_echo
+	util_error_echo "gsettings set org.mate.Marco.general action-middle-click-titlebar 'toggle_shade'"
+	gsettings set org.mate.Marco.general action-middle-click-titlebar "'toggle_shade'"
+
+
+	util_error_echo
+	util_error_echo "gsettings set org.mate.Marco.general action-right-click-titlebar 'menu'"
+	gsettings set org.mate.Marco.general action-right-click-titlebar "'menu'"
+
+
+
+	util_error_echo
+	util_error_echo "gsettings set org.mate.Marco.general button-layout 'menu:minimize,maximize,close'"
+	gsettings set org.mate.Marco.general button-layout "'menu:minimize,maximize,close'"
+
+
+	util_error_echo
+	util_error_echo "gsettings set org.mate.Marco.general mouse-button-modifier '<Super>'"
+	gsettings set org.mate.Marco.general mouse-button-modifier "'<Super>'"
+
+
+	util_error_echo
+	util_error_echo "gsettings set org.mate.Marco.general resize-with-right-button true"
+	gsettings set org.mate.Marco.general resize-with-right-button true
+
+	util_error_echo
+	util_error_echo "gsettings set org.mate.Marco.general raise-on-click true"
+	gsettings set org.mate.Marco.general raise-on-click true
+
+
+	util_error_echo
+	util_error_echo "gsettings set org.mate.Marco.general focus-mode 'click'"
+	gsettings set org.mate.Marco.general focus-mode "'click'"
+
+	util_error_echo
+	util_error_echo "gsettings set org.mate.Marco.general focus-new-windows 'smart'"
+	gsettings set org.mate.Marco.general focus-new-windows "'smart'"
+
+
+
+	util_error_echo
+
+
+
+
+	return 0
+
+}
+
+mate_config_main_for_keyboard () {
+
+
+
+	##
+	## /usr/share/glib-2.0/schemas/org.mate.desktop.peripherals.gschema.xml
+	##
+
+
+	##
+	## gsettings list-recursively | grep org.mate.peripherals
+	## gsettings list-recursively org.mate.peripherals-keyboard
+	## dconf dump /org/mate/desktop/peripherals-keyboard/
+	## dconf dump / | grep 'org/mate/desktop/peripherals-keyboard' -A 10
+	##
+
+	util_error_echo
+	util_error_echo "##"
+	util_error_echo "## mate_config_main_for_keyboard"
+	util_error_echo "##"
+
+
+	util_error_echo
+	util_error_echo "gsettings set org.mate.peripherals-keyboard numlock-state 'off'"
+	gsettings set org.mate.peripherals-keyboard numlock-state "'off'"
+
+	util_error_echo
+	util_error_echo "gsettings set org.mate.peripherals-keyboard remember-numlock-state true"
+	gsettings set org.mate.peripherals-keyboard remember-numlock-state true
+
+
+
+
+	util_error_echo
+
+
+	return 0
+
+}
+
+mate_config_main_for_sound () {
+
+
+
+	##
+	## /usr/share/glib-2.0/schemas/org.mate.sound.gschema.xml
+	##
+
+
+	##
+	## gsettings list-recursively | grep org.mate.sound
+	## gsettings list-recursively org.mate.sound
+	## dconf dump /org/mate/sound/
+	## dconf dump / | grep 'org/mate/sound' -A 10
+	##
+
+	util_error_echo
+	util_error_echo "##"
+	util_error_echo "## mate_config_main_for_sound"
+	util_error_echo "##"
+
+
+	util_error_echo
+	util_error_echo "gsettings set org.mate.sound event-sounds false"
+	gsettings set org.mate.sound event-sounds false
+
+
+
+
+	util_error_echo
+
+
+	return 0
+
+}
+
+##
+### Tail: mate / config
 ################################################################################
