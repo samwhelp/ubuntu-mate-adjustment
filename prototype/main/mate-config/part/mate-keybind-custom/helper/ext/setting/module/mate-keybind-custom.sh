@@ -281,28 +281,6 @@ mate_config_keybind_custom () {
 
 
 	##
-	## ## Reboot
-	##
-
-	util_error_echo
-	util_error_echo "##"
-	util_error_echo "## ## Reboot"
-	util_error_echo "##"
-
-	util_error_echo
-	util_error_echo "dconf write /org/mate/desktop/keybindings/system-reboot/name \"'System_Rebot'\""
-	dconf write /org/mate/desktop/keybindings/system-reboot/name "'System_Rebot'"
-
-	util_error_echo
-	util_error_echo "dconf write /org/mate/desktop/keybindings/system-reboot/action \"'mate-session-quit --reboot'\""
-	dconf write /org/mate/desktop/keybindings/system-reboot/action "'mate-session-quit --reboot'"
-
-	util_error_echo
-	util_error_echo "dconf write /org/mate/desktop/keybindings/system-reboot/binding \"'<Control><Alt>x'\""
-	dconf write /org/mate/desktop/keybindings/system-reboot/binding "'<Control><Alt>x'"
-
-
-	##
 	## ## Shutdown
 	##
 
