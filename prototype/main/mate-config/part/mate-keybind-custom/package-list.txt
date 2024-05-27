@@ -1,0 +1,23 @@
+
+
+##
+## # Mate
+##
+
+
+
+
+##
+## ## Package / mate-desktop
+##
+
+mate-desktop
+
+
+
+
+##
+## ## Package / dconf
+##
+
+dconf-cli
