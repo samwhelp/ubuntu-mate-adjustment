@@ -1,0 +1,4 @@
+
+
+[com.solus-project.brisk-menu]
+favourites=['caja.desktop', 'pluma.desktop', 'org.kde.falkon.desktop', 'sakura.desktop', 'matecc.desktop', 'mate-keybinding.desktop', 'mate-appearance-properties.desktop', 'mate-tweak.desktop', 'atom.desktop']
