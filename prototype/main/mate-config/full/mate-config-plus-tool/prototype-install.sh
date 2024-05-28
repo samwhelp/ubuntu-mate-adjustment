@@ -49,7 +49,7 @@ main_prototype_install () {
 
 	mate_keybind_custom_prototype_install
 
-	mate_terminal_asset_prototype_install
+	mate_terminal_prototype_install
 
 	caja_prototype_install
 
