@@ -142,8 +142,8 @@ mate_theme_main_settings_set_all () {
 
 
 	util_error_echo
-	util_error_echo "gsettings set org.mate.Marco.general theme 'Yaru'"
-	gsettings set org.mate.Marco.general theme 'Yaru'
+	util_error_echo "gsettings set org.mate.Marco.general theme 'Yaru-dark'"
+	gsettings set org.mate.Marco.general theme 'Yaru-dark'
 
 
 
