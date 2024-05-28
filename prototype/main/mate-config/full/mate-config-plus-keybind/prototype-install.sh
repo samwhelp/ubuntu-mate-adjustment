@@ -45,6 +45,10 @@ main_prototype_install () {
 
 	mate_favorite_apps_prototype_install
 
+	mate_keybind_main_prototype_install
+
+	mate_keybind_custom_prototype_install
+
 
 
 

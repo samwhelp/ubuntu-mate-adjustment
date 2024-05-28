@@ -45,6 +45,10 @@ main_config_install () {
 
 	mate_favorite_apps_config_install
 
+	mate_keybind_main_config_install
+
+	mate_keybind_custom_config_install
+
 
 
 

@@ -45,6 +45,10 @@ main_asset_install () {
 
 	mate_favorite_apps_asset_install
 
+	mate_keybind_main_asset_install
+
+	mate_keybind_custom_asset_install
+
 
 
 

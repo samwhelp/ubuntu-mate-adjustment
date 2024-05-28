@@ -6,6 +6,13 @@
 
 
 ##
+## Load: Setting / Module / Dconf
+##
+
+. "${THE_MAIN_EXT_SETTING_MODULE_DIR_PATH}/system-dconf.sh"
+
+
+##
 ## Load: Setting / Module / Gsettings
 ##
 
@@ -31,6 +38,20 @@
 ##
 
 . "${THE_MAIN_EXT_SETTING_MODULE_DIR_PATH}/mate-favorite-apps.sh"
+
+
+##
+## Load: Setting / Module / Mate / Keybind Main
+##
+
+. "${THE_MAIN_EXT_SETTING_MODULE_DIR_PATH}/mate-keybind-main.sh"
+
+
+##
+## Load: Setting / Module / Mate / Keybind Custom
+##
+
+. "${THE_MAIN_EXT_SETTING_MODULE_DIR_PATH}/mate-keybind-custom.sh"
 
 
 ##
