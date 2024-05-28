@@ -214,6 +214,8 @@ mate_keybind_main_config_start () {
 
 	mate_keybind_main_config_for_workspace
 
+	mate_keybind_main_config_for_menu
+
 
 
 
@@ -631,4 +633,32 @@ mate_keybind_main_config_for_workspace_move_to_workspace_specific () {
 
 ##
 ### Tail: mate / config / mate_keybind_main / workspace
+################################################################################
+
+
+################################################################################
+### Head: mate / config / mate_keybind_main / menu
+##
+
+mate_keybind_main_config_for_menu () {
+
+	mate_keybind_main_config_for_menu_brisk
+
+
+	return 0
+
+}
+
+mate_keybind_main_config_for_menu_brisk () {
+
+
+	gsettings set com.solus-project.brisk-menu hot-key ''
+
+
+	return 0
+
+}
+
+##
+### Tail: mate / config / mate_keybind_main / menu
 ################################################################################

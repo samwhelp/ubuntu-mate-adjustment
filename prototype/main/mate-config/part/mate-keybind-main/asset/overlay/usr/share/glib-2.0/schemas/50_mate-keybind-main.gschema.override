@@ -108,3 +108,7 @@ command-window-screenshot='mate-screenshot --window'
 [org.mate.SettingsDaemon.plugins.media-keys]
 screensaver='<Control><Alt>x'
 #screensaver='disabled'
+
+
+[com.solus-project.brisk-menu]
+hot-key=''
