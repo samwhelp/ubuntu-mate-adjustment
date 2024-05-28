@@ -41,6 +41,8 @@ main_asset_install () {
 
 	mate_config_main_asset_install
 
+	mate_workspace_main_asset_install
+
 
 
 

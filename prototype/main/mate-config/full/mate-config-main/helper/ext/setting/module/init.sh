@@ -20,5 +20,12 @@
 
 
 ##
+## Load: Setting / Module / Mate / Workspace Main
+##
+
+. "${THE_MAIN_EXT_SETTING_MODULE_DIR_PATH}/mate-workspace-main.sh"
+
+
+##
 ### Tail: Setting / Module / Init
 ################################################################################

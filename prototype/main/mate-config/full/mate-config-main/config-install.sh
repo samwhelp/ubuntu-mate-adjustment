@@ -41,6 +41,8 @@ main_config_install () {
 
 	mate_config_main_config_install
 
+	mate_workspace_main_config_install
+
 
 
 
