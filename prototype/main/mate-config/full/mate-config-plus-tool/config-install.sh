@@ -51,6 +51,8 @@ main_config_install () {
 
 	mate_terminal_config_install
 
+	pluma_config_install
+
 
 
 

@@ -51,6 +51,8 @@ main_prototype_install () {
 
 	mate_terminal_asset_prototype_install
 
+	pluma_prototype_install
+
 
 
 
