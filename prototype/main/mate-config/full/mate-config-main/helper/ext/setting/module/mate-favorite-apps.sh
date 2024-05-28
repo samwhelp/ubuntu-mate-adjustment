@@ -236,8 +236,8 @@ mate_favorite_apps_config_for_brisk_menu () {
 
 
 	util_error_echo
-	util_error_echo "gsettings set com.solus-project.brisk-menu favourites \"['caja.desktop', 'pluma.desktop', 'org.kde.falkon.desktop', 'sakura.desktop', 'matecc.desktop', 'mate-keybinding.desktop', 'mate-appearance-properties.desktop', 'mate-tweak.desktop', 'atom.desktop']\""
-	gsettings set com.solus-project.brisk-menu favourites "['caja.desktop', 'pluma.desktop', 'org.kde.falkon.desktop', 'sakura.desktop', 'matecc.desktop', 'mate-keybinding.desktop', 'mate-appearance-properties.desktop', 'mate-tweak.desktop', 'atom.desktop']"
+	util_error_echo "gsettings set com.solus-project.brisk-menu favourites \"['caja.desktop', 'pluma.desktop', 'firefox.desktop', 'mate-terminal.desktop', 'matecc.desktop', 'mate-keybinding.desktop', 'mate-appearance-properties.desktop', 'mate-tweak.desktop', 'sublime-text.desktop']\""
+	gsettings set com.solus-project.brisk-menu favourites "['caja.desktop', 'pluma.desktop', 'firefox.desktop', 'mate-terminal.desktop', 'matecc.desktop', 'mate-keybinding.desktop', 'mate-appearance-properties.desktop', 'mate-tweak.desktop', 'sublime-text.desktop']"
 
 
 
