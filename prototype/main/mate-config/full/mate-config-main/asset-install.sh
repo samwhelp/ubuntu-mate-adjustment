@@ -43,6 +43,8 @@ main_asset_install () {
 
 	mate_workspace_main_asset_install
 
+	mate_favorite_apps_asset_install
+
 
 
 

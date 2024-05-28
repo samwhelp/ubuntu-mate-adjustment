@@ -43,6 +43,8 @@ main_config_install () {
 
 	mate_workspace_main_config_install
 
+	mate_favorite_apps_config_install
+
 
 
 

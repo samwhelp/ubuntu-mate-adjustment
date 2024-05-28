@@ -43,6 +43,8 @@ main_prototype_install () {
 
 	mate_workspace_main_prototype_install
 
+	mate_favorite_apps_prototype_install
+
 
 
 
