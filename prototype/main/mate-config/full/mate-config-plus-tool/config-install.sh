@@ -49,6 +49,8 @@ main_config_install () {
 
 	mate_keybind_custom_config_install
 
+	mate_terminal_config_install
+
 
 
 

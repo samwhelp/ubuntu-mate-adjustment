@@ -49,6 +49,8 @@ main_asset_install () {
 
 	mate_keybind_custom_asset_install
 
+	mate_terminal_asset_install
+
 
 
 

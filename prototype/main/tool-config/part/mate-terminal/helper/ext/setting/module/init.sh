@@ -19,7 +19,6 @@
 . "${THE_MAIN_EXT_SETTING_MODULE_DIR_PATH}/mate-terminal.sh"
 
 
-
 ##
 ### Tail: Setting / Module / Init
 ################################################################################
