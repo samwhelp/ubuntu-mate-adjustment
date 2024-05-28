@@ -62,6 +62,13 @@
 
 
 ##
+## Load: Setting / Module / Caja
+##
+
+. "${THE_MAIN_EXT_SETTING_MODULE_DIR_PATH}/caja.sh"
+
+
+##
 ## Load: Setting / Module / Pluma
 ##
 
