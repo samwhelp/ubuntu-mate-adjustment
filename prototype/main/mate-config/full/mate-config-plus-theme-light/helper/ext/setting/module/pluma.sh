@@ -201,8 +201,8 @@ pluma_settings_set_all () {
 
 
 	util_error_echo
-	util_error_echo "gsettings set org.mate.pluma color-scheme 'oblivion'"
-	gsettings set org.mate.pluma color-scheme 'oblivion'
+	util_error_echo "gsettings set org.mate.pluma color-scheme 'solarized-light'"
+	gsettings set org.mate.pluma color-scheme 'solarized-light'
 
 
 	util_error_echo
