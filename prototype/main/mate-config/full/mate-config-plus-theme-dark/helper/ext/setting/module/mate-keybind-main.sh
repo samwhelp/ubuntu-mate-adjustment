@@ -296,9 +296,9 @@ mate_keybind_main_config_for_command () {
 
 	gsettings set org.mate.Marco.global-keybindings run-command-terminal 'disabled'
 	gsettings set org.mate.Marco.global-keybindings run-command-screenshot 'Print'
-	gsettings set org.mate.Marco.global-keybindings run-command-window-screenshot '<Alt>Print'
+	gsettings set org.mate.Marco.global-keybindings run-command-window-screenshot '<Super>Print'
 	gsettings set org.mate.Marco.global-keybindings run-command-1 '<Super><Alt>l'
-	gsettings set org.mate.Marco.global-keybindings run-command-2 '<Shift>Print'
+	gsettings set org.mate.Marco.global-keybindings run-command-2 '<Control>Print'
 	gsettings set org.mate.Marco.global-keybindings run-command-3 '<Super>F1'
 	gsettings set org.mate.Marco.global-keybindings run-command-4 '<Super>F4'
 	gsettings set org.mate.Marco.global-keybindings run-command-5 '<Super>F5'
