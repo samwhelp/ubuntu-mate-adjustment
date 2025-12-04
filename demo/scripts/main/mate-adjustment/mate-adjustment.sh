@@ -96,6 +96,11 @@ mod_mate_config_for_keybind_main () {
 	gsettings set org.mate.Marco.global-keybindings switch-windows "'<Super>s'"
 
 
+	gsettings set org.mate.Marco.global-keybindings cycle-windows "'<Alt>Escape'"
+
+	gsettings set org.mate.Marco.global-keybindings cycle-windows-backward "'<Super>Escape'"
+
+
 	##
 	## ## Workspace / Switch
 	##
